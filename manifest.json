@@ -1,0 +1,15 @@
+{
+	"name": "Prasanth Louis",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "News Feed",
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_title": "News Headlines",
+		"default_popup": "popup.html"
+	},
+	"content_security_policy": "script-src 'self' https://www.google.com; object-src 'self'",
+	"icons": {
+		"128": "icon.png"
+	}
+}
